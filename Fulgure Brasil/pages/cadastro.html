@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <title> Fulgure Brasil: Cadastro</title>
+        <link rel="stylesheet" type="text/css" href="../assets/css/style_cadastro.css">
+        <script type="text/javascript" src="../assets/js/script.js"></script>
+    </head>
+    <body>
+        <div id="menu-bar">
+            <div id="hamburguerInvertido" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <a href="#">Sobre nós</a>
+            <a href="#">Entre em contato</a>
+            <a href="#">Reportar problema</a>
+        </div>
+        <div id="tela">
+            <div id="hamburguer" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <p id="cadastrar">Cadastrar</p>
+            <p id="instrucao">Insira os seus dados para realizar o cadastro.</p>
+            <form id="cadastro" onsubmit="return validarCampos(event)" method="post">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" placeholder="Seu nome">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="exemplo@mail.com">
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" id="senha" placeholder="••••••••••••••••••">
+                <div id="check">
+                    <input type="checkbox" name="termos" id="termos">
+                    <label for="termos" id="txtTermos"> Eu li e concordo com os <a href="#"> termos de uso.</a></label>
+                </div>
+                <p id="mensagem"></p>
+                <button id="enviar" type="submit">Enviar</button>
+                <button id="buttonGoogle" type="button">
+                    <img id="google" src="../assets/images/google.PNG">
+                    <p>Cadastrar com Google</p>
+                </button>
+            </form>
+        </div>
+    </body>
+</html>

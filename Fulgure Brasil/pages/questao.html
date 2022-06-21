@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <title> Fulgure Brasil: Questão 1</title>
+    <link rel="stylesheet" type="text/css" href="../assets/css/style_questao.css">
+    <script type="text/javascript" src="../assets/js/script.js"></script>
+</head>
+
+<body>
+    <div id="telaweb">
+        <div>
+            <div id="vidas">
+                <img id="coracao" src="../assets/images/coracao.png">
+                <p id="quantidadeVidas">3</p>
+            </div>
+            <div id="tempo">
+                <p id="tempoDecorrido">00:30</p>
+                <img id="relogio" src="../assets/images/relogio.PNG">
+            </div>
+            <p id="questao1"> Questão 1</p>
+            <p id="textoQuestao"> Qual a maior influência cultural na culinária nortista brasileira? </p>
+            <div id="alternativas">
+                <p class="alternativa"> Europeia</p>
+                <p class="alternativa"> Norte-americana</p>
+                <p class="alternativa"> Indigena</p>
+                <p class="alternativa"> Asiática</p>
+                <p class="alternativa"> Australiana</p>
+            </div>
+            <div id="setas">
+                <button id="retornar">
+                    <img id="setaEsquerda" src="../assets/images/voltar.png" alt="">
+                </button>
+                <button id="avancar">
+                    <img id="setaDireita" src="../assets/images/avancar.png" alt="">
+                </button>
+            </div>
+            <div id="botoes">
+                <a href = "../pages/dica.html"><button id="dica">
+                    <p id="txtDica">Dica</p>
+                    <img id="lampada" src="../assets/images/lampada.PNG">
+                </button></a>
+                <button id="pular">
+                    <p id="txtPular">Pular</p>
+                    <img id="coracaoPartido" src="../assets/images/coracaoPartido.PNG">
+                </button>
+                <button id="responder">
+                    <p id="enviar">Responder</p>
+                    <img id="seta" src="../assets/images/seta.PNG">
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div id="telamobile">
+        <div id="menu-bar">
+            <div id="hamburguerInvertido" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <a href="#">Sobre nós</a>
+            <a href="#">Entre em contato</a>
+            <a href="#">Reportar problema</a>
+        </div>
+        <div id="hamburguer" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div id="vidas">
+            <img id="coracao" src="../assets/images/coracao.png">
+            <p id="quantidadeVidas">3</p>
+        </div>
+        <div id="tempo">
+            <p id="tempoDecorrido">00:30</p>
+            <img id="relogio" src="../assets/images/relogio.PNG">
+        </div>
+        <div id="questao">
+            <p id="questao1"> Questão 1</p>
+            <p id="textoQuestao"> Qual a maior influência cultural na culinária nortista brasileira? </p>
+            <div class="container">
+                <div class="circulo"></div>
+                <p class="alternativa"> Europeia;</p>
+            </div>
+            <div class="container">
+                <div class="circulo"></div>
+                <p class="alternativa"> Norte-americana;</p>
+            </div>
+            <div class="container">
+                <div class="circulo"></div>
+                <p class="alternativa"> Indigena;</p>
+            </div>
+            <div class="container">
+                <div class="circulo"></div>
+                <p class="alternativa"> Asiática;</p>
+            </div>
+            <div class="container">
+                <div class="circulo"></div>
+                <p class="alternativa"> Australiana.</p>
+            </div>
+        </div>
+        <div id="setas">
+            <button id="retornar">
+                <img id="setaEsquerda" src="../assets/images/voltar.png" alt="">
+            </button>
+            <button id="avancar">
+                <img id="setaDireita" src="../assets/images/avancar.png" alt="">
+            </button>
+        </div>
+        <a href = "../pages/dica.html"><button id="dica">
+            <p id="txtDica">Dica</p>
+            <img id="lampada" src="../assets/images/lampada.PNG">
+        </button></a>
+        <button id="pular">
+            <p id="txtPular">Pular</p>
+            <img id="coracaoPartido" src="../assets/images/coracaoPartido.PNG">
+        </button>
+        <button id="responder">
+            <p id="enviar">Responder</p>
+            <img id="seta" src="../assets/images/seta.PNG">
+        </button>
+    </div>
+</body>
+</html>

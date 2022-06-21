@@ -1,0 +1,490 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+}
+
+a:link {text-decoration: none; cursor: pointer;}
+
+p{
+    font-size: 14px;
+}
+
+input, button{
+    width: 325px;
+    height: 44px;
+    border-radius: 6px;
+    display: block;
+}
+
+input{
+    margin-bottom: 24px;
+}
+
+button{
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+div#telaweb{
+    vertical-align: center;
+    float: right;
+    margin-right: 5%;
+    height: 770px;
+    width: 40%;
+    padding: 0;
+    margin-top: 80px;
+}
+
+div#vidas{
+    background-color: #345FCD;
+    width: 80px;
+    height: 40px;
+    border-radius: 37px;
+    color: white;
+    display: inline-block;
+    flex-direction: left;
+    margin-bottom: 58px;
+    justify-content: center;
+    align-content: center;
+}
+
+p#quantidadeVidas{
+    display: inline;
+    vertical-align: 4px;
+    font-size: 17px;
+}
+
+img#coracao{
+    width: 23px;
+    height: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+div#tempo{
+    display: block;
+    float: right;
+}
+
+p#tempoDecorrido{
+    display: inline;
+    vertical-align: 8px;
+    font-size: 17px;
+}
+
+img#relogio{
+    width: 30px;
+    height: 28px;
+    margin-top: 5px;
+}
+
+div#questao{
+    margin-top: 80px;
+    box-shadow: 3px 3px 3px 3px #9b9b9b;
+    padding-bottom: 25px;
+    border-radius: 6px;
+    padding-bottom: 70px;
+}
+
+p#questao1{
+    background-color: black;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 6px 6px 1.5px 1.5px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+p#textoQuestao{
+    margin: 0 0 40px 0;
+    text-align: justify;
+}
+
+div.circulo{
+    cursor: pointer;
+    background-color: black;
+    border-radius: 100px;
+    width: 30px;
+    height: 30px;
+    margin: 8px 0;
+    display: inline-block;
+}
+
+div.container{
+    display: block;
+}
+
+div#alternativas{
+    padding: 20px 20px 0px 20px;
+    border: 2px solid #FFC700;
+    border-radius: 5px;
+}
+
+p.alternativa{
+    line-height: 33px;
+    padding-left: 3%;
+    width: 97%;
+    height: 33px;
+    display: block;
+    box-shadow: 1px 1px 1px 1px #9b9b9b;
+    margin: 0 0 20px 0;
+    border-radius: 5px;
+}
+
+div#botoes{
+    margin-top: 50px;
+    width: 100%;
+}
+
+button#dica{
+    background-color: #FFC700;
+    width: 85px;
+    height: 41px;
+    border-radius: 37px;
+    float: left;
+    border-radius: 37px;
+    border: none;
+    margin-left: 30%;
+    box-shadow: 2px 2px 2px#c4c4c4;
+}
+
+img#lampada{
+    height: 21px;
+    width: 20px;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+p#txtDica, p#enviar, p#txtPular{
+    display: inline;
+    vertical-align: 4px;
+}
+
+button#pular{
+    background-color: #FFC700;
+    width: 85px;
+    height: 41px;
+    border-radius: 37px;
+    border-radius: 37px;
+    border: none;
+    display: block;
+    float: right;
+    margin-right: 30%;
+    box-shadow: 2px 2px 2px#c4c4c4;
+}
+
+img#coracaoPartido{
+    height: 16px;
+    width: 20px;
+    margin-top: 6px;
+}
+
+p#txtPular{
+    display: inline;
+}
+
+button#responder{
+    color: white;
+    background-color: #3D9A8A;
+    width: 150px;
+    height: 41px;
+    border-radius: 37px;
+    display: block;
+    flex-direction: center;
+    border-radius: 37px;
+    border: none; 
+    margin: auto;
+}
+
+img#seta{
+    width: 21px;
+    height: 19px;
+    margin-top: 3px;
+    margin-left: 6px;
+}
+
+button#retornar{
+    display: block;
+    float: left;
+    border: none; 
+    background: none;
+    height: 35px;
+    width: 25px;
+}
+
+button#avancar{
+    margin: auto;
+    display: block;
+    float: right;
+    border: none; 
+    background: none;
+    height: 35px;
+    width: 25px;
+}
+
+img#setaEsquerda{
+    height: 35px;
+    width: 30px;
+    float: left;
+    margin-left: 50px;
+}
+
+img#setaDireita{
+    height: 35px;
+    width: 30px;
+    float: right;
+    margin-right: 50px;
+}
+
+div#setas{
+    margin-top: 50px;
+    width: 100%;
+}
+
+div#telamobile{
+    display: none;
+}
+
+div#menu-bar {
+    margin: 0 auto;
+    position: absolute;
+    background-color: black;
+    color: white;
+    height: 130%;
+    width: 40%;
+    padding: 90px;
+    box-shadow: 3px 3px 3px 3px #9b9b9b;
+    left: 0;
+    top: 0;
+    display: none;
+    font-size: 30px;
+}
+
+div#menu-bar a {
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+    display: block;
+    margin-bottom: 50px;
+}
+
+div#hamburguer, div#hamburguerInvertido {
+    display: none;
+    cursor: pointer;
+}
+
+div#hamburguer{
+    margin-top: 40px;
+    margin-bottom: 120px;
+}
+
+div#hamburguer div, div#hamburguerInvertido div {
+    width: 80px;
+    height: 13.4px;
+    margin-bottom: 8px;
+}
+
+div#hamburguerInvertido{
+    margin-bottom: 120px;
+}
+
+div#hamburguerInvertido div {
+    background-color: rgb(255, 255, 255);
+}
+
+div#hamburguer div{
+    background-color: black;
+}
+
+.erro{
+    border-color: red;
+}
+
+p#mensagem{
+    font-weight: bold;
+    color: red;
+}
+
+@media only screen and (max-device-width: 1450px) {
+
+    body{
+        background-image: none;
+    }
+  
+    div#telaweb{
+        margin: 90px auto;
+        width: 60%;
+        float:none;;
+    }
+}
+
+  
+@media only screen and (max-device-width: 850px) {
+
+    div#hamburguer, div#hamburguerInvertido {
+        display: block;
+    }
+
+    div#telamobile{
+        display: block;
+        margin: 0 auto;
+        padding: 50px;
+        width: 80%;
+    }
+
+    p#questao1{
+        font-size: 35px;
+    }
+
+    p, button{
+        font-size: 25px;
+    }
+
+    p#tempoDecorrido, p#quantidadeVidas{
+        font-size: 35px; 
+    }
+
+    div#telaweb{
+        display: none;
+    }
+
+    p#questao1{
+        padding: 25px;
+    }
+    
+    p#textoQuestao{
+        padding: 36px;
+        text-align: justify;
+    }
+
+    div#vidas{
+        width: 160px;
+        height: 80px;
+    }
+
+    p#quantidadeVidas{
+        vertical-align: 6px;
+    }
+
+    img#coracao{
+        width: 50px;
+        height: 43px;
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-right: 10px;
+    }
+    
+    img#relogio{
+        width: 60px;
+        height: 58px;
+        margin-top: 10px;
+    }
+
+    p#tempoDecorrido{
+        vertical-align: 12px;
+        margin-right: 10px;
+    }
+
+    p#questao1{
+        background-color: black;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+        border-radius: 6px 6px 1.5px 1.5px;
+        margin-top: 0px;
+    }
+    
+    p#textoQuestao{
+        margin: 0 22px 25px 22px;
+        text-align: justify;
+    }
+
+    p.alternativa{
+        display: inline; 
+        width: 50%;
+        box-shadow: none;
+        vertical-align: 12px;
+    }
+
+    img#setaEsquerda{
+        height: 70px;
+        width: 60px;
+        float: left;
+        margin-left: 15px;
+    }
+    
+    img#setaDireita{
+        height: 70px;
+        width: 60px;
+        float: right;
+        margin-right: 15px;
+    }
+    
+    div#setas{
+        margin-top: 100px;
+        width: 100%;
+    }
+
+    p#txtDica, p#enviar, p#txtPular{
+        vertical-align: 6px;
+        font-size: 35px;
+    }
+    
+    p#txtPular{
+        display: inline;
+        vertical-align: 2.5px;
+    }
+
+    button#pular{
+        background-color: #FFC700;
+        width: 180px;
+        height: 82px;
+        border: none;
+        margin-right: 130px;
+    }
+    
+    button#dica{
+        width: 178px;
+        height: 82px;
+        margin-left: 130px;
+    }
+
+    button#responder{
+        width: 300px;
+        height: 82px;
+        margin-bottom: 100px;
+    }
+
+    button{
+        margin-bottom: 70px;
+    }
+
+    img#seta{
+        width: 42px;
+        height: 38px;
+        margin-top: 6px;
+    }
+    
+    img#lampada{
+        height: 42px;
+        width: 40px;
+    }
+    
+    img#coracaoPartido{
+        height: 32px;
+        width: 40px;
+        margin-top: 8px;
+    }
+
+
+    div.container{
+        padding-left: 58px;
+    }
+
+}
+  
