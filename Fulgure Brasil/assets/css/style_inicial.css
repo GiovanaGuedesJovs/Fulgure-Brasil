@@ -48,10 +48,10 @@ img#play{
 
 div#menu-bar {
     margin: 0 auto;
-    position: absolute;
+    position: fixed;
     background-color: black;
     color: white;
-    height: 130%;
+    height: 100%;
     width: 20%;
     padding-left: 40px;
     padding-top: 58px;
